@@ -1,0 +1,10 @@
+query GetMyProfile {
+    GetMyProfile {
+        ok
+        error
+        user {
+        firstName
+        lastName
+        }
+    }
+}

@@ -1,0 +1,5 @@
+mutation($email: String!, $password: String!){
+    EmailSignin(email: $email, password: $password) {
+        
+    }
+}
